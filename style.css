@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.mid-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;  
+    color: #fff;  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #6F6AF7;
+    color: white;
+
+    img{
+        width: 100px;
+        margin-right: 20px;
+    }
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-input {
+  /* Add your styles here */
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 25px;
+  font-size: 16px;
+}
